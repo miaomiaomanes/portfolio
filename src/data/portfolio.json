@@ -1,0 +1,23 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/kayak.png",
+            "title": "Kayak",
+            "description": "React",
+            "url": "https://github.com/miaomiaomanes/reactproject"
+        },
+        {
+            "cover": "/portfolio/keeper.png",
+            "title": "Keeper",
+            "description": "React",
+            "url": "https://github.com/miaomiaomanes/keeper2"
+        },
+        {
+            "cover": "/portfolio/todolist.png",
+            "title": "To do list",
+            "description": "React",
+            "url": "https://github.com/miaomiaomanes/todolist-react"
+        }
+        
+    ]
+}
