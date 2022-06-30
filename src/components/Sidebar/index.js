@@ -7,14 +7,12 @@ import {
 
 } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
-        <h1>Strong Learner</h1>
-      </Link>
+     
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />

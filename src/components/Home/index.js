@@ -9,7 +9,7 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['Y', 'a', 'n', 'g', 'm', 'i', 'a','o','m', 'i', 'a','o']
+  const nameArray = ['Y', 'a', 'n', 'g', ' ', 'M', 'i', 'a','o','m', 'i', 'a','o']
   const jobArray = [
     'w',
     'e',
@@ -58,7 +58,7 @@ const Home = () => {
           </h1>
           <h2>Front End Developer / JavaScript Expert</h2>
           
-          <Link to="../../assets/pdf/Miaomiao-Manes-CV.pdf" download className="flat-button">Download CV</Link>
+          <Link to="/assets/pdf/Miaomiao-Manes-CV.pdf" download className="flat-button">Download CV</Link>
           
           
         </div>
