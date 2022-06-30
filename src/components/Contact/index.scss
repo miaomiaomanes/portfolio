@@ -41,3 +41,37 @@
     }
   }
 }
+ .contactInfo {
+  
+ 
+  
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style: none;
+
+ 
+ margin-top: 40px;
+
+   
+
+  li {
+
+    border: green solid 2px;
+    background: white;
+   
+    
+       
+    a {
+     
+      display: block;
+      font-size: 25px;
+      
+      line-height: 40px;
+      margin: 0px 25px;
+   
+
+    }
+   
+  }
+}
